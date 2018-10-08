@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.softices.lit.activities.CreateAccountStudentActivity"
+    android:background="@drawable/ic_abc"
+    android:theme="@style/AppTheme">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp">
+
+        <EditText
+            android:id="@+id/hod_firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:textColorHint="@color/black"/>
+
+        <EditText
+            android:id="@+id/hod_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hod_firstname"
+            android:hint="Last Name"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:textColorHint="@color/black"/>
+
+        <EditText
+            android:id="@+id/hod_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hod_lastname"
+            android:hint="Email"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:textColorHint="@color/black"/>
+
+        <EditText
+            android:id="@+id/hod_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hod_email"
+            android:hint="Password"
+            android:textStyle="bold"
+            android:inputType="textPassword"
+            android:textColorHint="@color/black"/>
+
+        <EditText
+            android:id="@+id/hod_confpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hod_password"
+            android:hint="Confirm Password"
+            android:textStyle="bold"
+            android:inputType="textPassword"
+            android:textColorHint="@color/black"/>
+
+
+        <EditText
+            android:id="@+id/hod_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hod_confpass"
+            android:hint="Subjects"
+            android:textStyle="bold"
+            android:textColorHint="@color/black"/>
+
+
+        <Spinner
+            android:id="@+id/hod_spinner_dept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hod_sub"
+            android:entries="@array/Department"
+            android:prompt="@string/Department_prompt" />
+
+        <EditText
+            android:id="@+id/hod_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hod_spinner_dept"
+            android:hint="Mobile NO."
+            android:inputType="number"
+            android:textStyle="bold"
+            android:textColorHint="@color/black"/>
+
+
+        <EditText
+            android:id="@+id/hod_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hod_mobile"
+            android:hint="Address"
+            android:textStyle="bold"
+            android:textColorHint="@color/black"/>
+
+        <EditText
+            android:id="@+id/hod_degree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Degree"
+            android:textStyle="bold"
+            android:layout_below="@+id/hod_address"
+            android:textColorHint="@color/black"/>
+
+        <Button
+            android:id="@+id/btn_signup_hod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Signup"
+            android:textStyle="bold"
+            android:layout_below="@+id/hod_degree"
+            android:singleLine="true"
+            android:textColorHint="@color/black"/>
+
+    </RelativeLayout>
+</ScrollView>

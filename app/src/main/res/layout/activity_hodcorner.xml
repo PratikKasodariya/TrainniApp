@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.softices.lit.activities.HODCornerActivity"
+    android:background="@drawable/ic_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/hod_corner_firstname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="FIRST NAME:-"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"/>
+
+        <TextView
+            android:id="@+id/hod_corner_ans_firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/hod_corner_firstname"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"/>
+
+        <TextView
+            android:id="@+id/hod_corner_lastname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hod_corner_firstname"
+            android:hint="LAST NAME:-"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"/>
+
+        <TextView
+            android:id="@+id/hod_corner_ans_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hod_corner_firstname"
+            android:layout_toRightOf="@+id/hod_corner_lastname"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"/>
+
+        <TextView
+            android:id="@+id/hod_corner_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hod_corner_lastname"
+            android:hint="EMAIL:-"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"/>
+
+        <TextView
+            android:id="@+id/hod_corner_ans_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hod_corner_lastname"
+            android:layout_toRightOf="@+id/hod_corner_email"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"/>
+
+        <TextView
+            android:id="@+id/hod_corner_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hod_corner_email"
+            android:hint="SUBJECTS:-"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"/>
+
+        <TextView
+            android:id="@+id/hod_corner_ans_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hod_corner_email"
+            android:layout_toRightOf="@+id/hod_corner_subject"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"/>
+
+
+
+        <TextView
+            android:id="@+id/hod_corner_department"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hod_corner_subject"
+            android:hint="DEPARTMENT:-"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"/>
+        <TextView
+            android:id="@+id/hod_corner_ans_departmnet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hod_corner_subject"
+            android:layout_toRightOf="@+id/hod_corner_department"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"/>
+
+        <TextView
+            android:id="@+id/hod_corner_mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hod_corner_department"
+            android:hint="MOBILE NO.:-"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"/>
+
+        <TextView
+            android:id="@+id/hod_corner_ans_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hod_corner_department"
+            android:layout_toRightOf="@+id/hod_corner_mobile"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"/>
+
+        <TextView
+            android:id="@+id/hod_corner_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hod_corner_mobile"
+            android:hint="ADDRESS:-"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"/>
+        <TextView
+            android:id="@+id/hod_corner_ans_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hod_corner_mobile"
+            android:layout_toRightOf="@+id/hod_corner_address"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"/>
+        <TextView
+            android:id="@+id/hod_corner_degree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hod_corner_address"
+            android:hint="DEGREE:-"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"/>
+        <TextView
+            android:id="@+id/hod_corner_ans_degree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hod_corner_address"
+            android:layout_toRightOf="@+id/hod_corner_degree"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"/>
+
+        <Button
+            android:id="@+id/btn_hod_corner_add_lacture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hod_corner_degree"
+            android:layout_marginTop="30dp"
+            android:hint="ADD LACTURES"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColorHint="@color/blue"/>
+
+        <Button
+            android:id="@+id/btn_hod_corner_add_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_hod_corner_add_lacture"
+            android:hint="ADD NOTES"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textColorHint="@color/blue"/>
+
+        <Button
+            android:id="@+id/btn_hod_corner_add_timetable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_hod_corner_add_note"
+            android:hint="ADD TIMETABLE"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textColorHint="@color/blue"/>
+    </RelativeLayout>
+
+</ScrollView>

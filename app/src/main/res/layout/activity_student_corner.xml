@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg"
+    tools:context="com.softices.lit.activities.StudentCornerActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/stu_corner_firstname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="FIRST NAME:-"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stu_corner_ans_firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/stu_corner_firstname"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stu_corner_lastname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stu_corner_ans_firstname"
+            android:hint="LAST NAME:-"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stu_corner_ans_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stu_corner_ans_firstname"
+            android:layout_toRightOf="@+id/stu_corner_lastname"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stu_corner_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stu_corner_ans_lastname"
+            android:hint="EMAIL:-"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stu_corner_ans_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stu_corner_ans_lastname"
+            android:layout_toRightOf="@+id/stu_corner_email"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stu_corner_enrollment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stu_corner_ans_email"
+            android:hint="ENROLLMENT NO.:-"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stu_corner_ans_enrollment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stu_corner_ans_email"
+            android:layout_toRightOf="@+id/stu_corner_enrollment"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stu_corner_sem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stu_corner_ans_enrollment"
+            android:hint="SEM:-"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stu_corner_ans_sem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stu_corner_ans_enrollment"
+            android:layout_toRightOf="@+id/stu_corner_sem"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stu_corner_department"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stu_corner_ans_sem"
+            android:hint="DEPARTMANT:-"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stu_corner_ans_department"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stu_corner_ans_sem"
+            android:layout_toRightOf="@+id/stu_corner_department"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/stu_corner_mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stu_corner_ans_department"
+            android:hint="MOBILE NO.:-"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stu_corner_ans_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stu_corner_ans_department"
+            android:layout_toRightOf="@+id/stu_corner_mobile"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stu_corner_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stu_corner_ans_mobile"
+            android:hint="ADDRESS:-"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stu_corner_ans_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stu_corner_ans_mobile"
+            android:layout_toRightOf="@+id/stu_corner_address"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/stu_corner_cpi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stu_corner_ans_address"
+            android:hint="CURRENT SEM CPI:-"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stu_corner_ans_cpi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stu_corner_ans_address"
+            android:layout_toRightOf="@+id/stu_corner_cpi"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</ScrollView>

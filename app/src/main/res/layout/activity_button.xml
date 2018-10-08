@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.softices.lit.activities.ButtonActivity"
+    android:background="@drawable/ic_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/btn_student_corner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STUDENT CORNER"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_faculty_corner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_student_corner"
+            android:text="FACULTY CORNER"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_hod_corner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_faculty_corner"
+            android:text="HOD CORNER"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_timetable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_hod_corner"
+            android:text="TIME TABLE"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_timetable"
+            android:text="NOTES"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_lacture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_notes"
+            android:text="LACTURES"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Services"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_lacture"
+            android:text="Play Music"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Share_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_Services"
+            android:text="Share Us"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Battery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_Share_us"
+            android:text="Battery Indicator"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btn_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_Battery"
+            android:text="Web Services"
+            android:textStyle="bold" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

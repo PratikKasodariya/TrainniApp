@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg"
+    tools:context="com.softices.lit.activities.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="43dp"
+            android:src="@mipmap/ic_launcher_lit" />
+
+        <RadioGroup
+            android:id="@+id/rad_grp_select"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="220dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rad_student"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="30dp"
+                android:checked="true"
+                android:defaultFocusHighlightEnabled="true"
+                android:text="STUDENT"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/rad_faculty"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="30dp"
+                android:text="FACULTY"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/rad_hod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:text="HOD"
+                android:textColor="@color/white" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/rad_grp_select"
+            android:layout_marginTop="18dp"
+            android:hint="Email"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password"
+            android:text="Login"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_creatacc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_login"
+            android:text="Create New Account"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_creatacc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="FORGOT PASSWORD?"
+            android:textColor="@color/red"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Contact_us"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_below="@+id/forgot_password"
+            android:layout_centerHorizontal="true"
+            android:text="Contact Us"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

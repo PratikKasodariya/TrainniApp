@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_abc"
+    tools:context="com.softices.lit.activities.EditProfileHODActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/edt_hod_firt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="FIRST NAME"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_hod_ans_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_hod_firt_name"
+            android:hint="FIRST NAME"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/edt_hod_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_hod_ans_first_name"
+            android:text="LAST NAME"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_hod_ans_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_hod_last_name"
+            android:hint="LAST NAME"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/edt_hod_department"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_hod_ans_last_name"
+            android:text="DEPARTMENT"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_hod_ans_department"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_hod_department"
+            android:hint="DEPARTMENT"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/edt_hod_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_hod_ans_department"
+            android:text="SUBJECTS"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_hod_ans_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_hod_sub"
+            android:hint="SUBJECTS"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/edt_hod_degree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_hod_ans_sub"
+            android:text="DEGREE"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_hod_ans_degree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_hod_degree"
+            android:hint="DEGREE"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/edt_hod_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_hod_ans_degree"
+            android:text="MOBILE NO."
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_hod_ans_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_hod_mobile"
+            android:hint="MOBILE NO."
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/edt_hod_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_hod_ans_mobile"
+            android:text="ADDRESS"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_hod_ans_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_hod_address"
+            android:hint="ADDRESS"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_update_hod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_hod_ans_address"
+            android:layout_marginTop="10dp"
+            android:text="UPDATE"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.softices.lit.activities.CreateAccountStudentActivity"
+    android:background="@drawable/ic_abc">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp">
+
+        <EditText
+            android:layout_alignParentTop="true"
+            android:id="@+id/std_firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:textColorHint="@color/black"/>
+
+        <EditText
+            android:id="@+id/std_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/std_firstname"
+            android:hint="Last Name"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:textColorHint="@color/black"/>
+
+        <EditText
+            android:id="@+id/std_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/std_lastname"
+            android:hint="Email"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:textColorHint="@color/black"/>
+
+        <EditText
+            android:id="@+id/std_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/std_email"
+            android:hint="Password"
+            android:textStyle="bold"
+            android:inputType="textPassword"
+            android:textColorHint="@color/black"/>
+
+        <EditText
+            android:id="@+id/std_confpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/std_password"
+            android:hint="Confirm Password"
+            android:textStyle="bold"
+            android:inputType="textPassword"
+            android:textColorHint="@color/black"/>
+
+        <EditText
+            android:id="@+id/std_enrollment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/std_confpass"
+            android:hint="Enrollment No."
+            android:inputType="number"
+            android:maxLength="12"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:textColorHint="@color/black"/>
+
+        <Spinner
+            android:id="@+id/spinner_sem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/std_enrollment"
+            android:entries="@array/Semester"
+            android:prompt="@string/Semester_prompt" />
+
+        <Spinner
+            android:id="@+id/spinner_dept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner_sem"
+            android:entries="@array/Department"
+            android:prompt="@string/Department_prompt"
+            android:textColorHint="@color/black"/>
+
+        <EditText
+            android:id="@+id/std_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner_dept"
+            android:hint="Mobile NO."
+            android:inputType="number"
+            android:textStyle="bold"
+            android:textColorHint="@color/black"/>
+
+
+        <EditText
+           android:id="@+id/std_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:textStyle="bold"
+            android:layout_below="@+id/std_mobile"
+            android:textColorHint="@color/black"/>
+
+        <Button
+            android:id="@+id/btn_signup_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:textStyle="bold"
+            android:layout_below="@+id/std_address"
+            android:textColorHint="@color/black"/>
+
+    </RelativeLayout>
+</ScrollView>
