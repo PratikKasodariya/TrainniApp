@@ -318,10 +318,8 @@ public class AddLactureFacultyActivity extends AppCompatActivity {
                     }
 
                 }
-
                 break;
         }
-
     }
 }
 
